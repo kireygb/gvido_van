@@ -1,0 +1,88 @@
+body {
+    background-color: aquamarine;
+}
+html{
+  font-family: "Tektur", sans-serif;
+    font-size: 1em;
+}
+header{
+    background-color: aqua;
+    text-align: left;
+    padding: 40px;
+}
+footer{
+    background-color: aqua;
+    padding: 20px 2rem;
+}
+h2 {
+    text-align: center;
+    background-color: bisque;
+}
+#about {
+    background-color: bisque;
+    text-align: left;
+    padding: 2rem;
+}
+#arcit {
+background-color: blue;
+padding: 2.5rem;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+ol{
+    text-align: left;
+}
+a:link {
+    color: red;
+}
+a:visited {
+color: green;
+}
+a:hover{
+color: yellow;
+}
+a:focus {
+    color: blueviolet;
+}
+nav a{
+    text-decoration: none;
+    color: darkcyan;
+    text-transform: uppercase;
+}
+nav a:hover{
+   text-decoration: overline
+}
+#article li:nth-child(odd){
+    background-color: rgb(116, 0, 139);
+}
+h2::after{
+    content: "new";
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: crimson;
+}
+#tyla {
+    text-align: left;
+    background-color: aqua;
+}
+li::before{
+    content: "важно!";
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: sandybrown;
+}
+#anapa:lang(en){
+    font-size:16pt;
+    background-color: brown;
+}
+#lg {
+    background-color: sandybrown;
+}
